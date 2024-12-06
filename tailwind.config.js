@@ -5,7 +5,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}", // Include all component files
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'neue': ['Neue Machina', 'sans-serif']
+      }
+    }
   },
   plugins: [],
 };

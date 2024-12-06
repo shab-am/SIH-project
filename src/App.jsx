@@ -4,6 +4,10 @@ import GetStarted from './components/GetStarted';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
 import Product from './components/Product';
+import KeyFeatures from './components/KeyFeatures';
+import BenifitsTo from './components/BenifitsTo';
+import CallToAction from './components/CallToAction';
+import ContactUs from './components/ContactUs';
 
 const AppContent = () => {
   const location = useLocation();
@@ -15,6 +19,10 @@ const AppContent = () => {
         <Route path="/" element={
           <main>
             <Hero />
+            <BenifitsTo />
+            <KeyFeatures />
+            <CallToAction />
+            <ContactUs />
             {/* Add other home page components here */}
           </main>
         } />
