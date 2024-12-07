@@ -41,7 +41,7 @@ const Product = () => {
                   type="text"
                   placeholder="Enter the value"
                   className="w-[80%] p-3 rounded bg-zinc-800 text-zinc-200 text-sm border border-zinc-700 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20"
-                  aria-label="Wavelength Range"
+                  aria-label="Absolute Magnitude"
                 />
               </div>
               <div className="space-y-1">
@@ -50,7 +50,7 @@ const Product = () => {
                   type="text"
                   placeholder="Enter the value"
                   className="w-[80%] p-3 rounded bg-zinc-800 text-zinc-200 text-sm border border-zinc-700 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20"
-                  aria-label="Normalized Reflectance"
+                  aria-label="Albedo"
                 />
               </div>
               <div className="space-y-1">
@@ -59,7 +59,7 @@ const Product = () => {
                   type="text"
                   placeholder="Enter the value"
                   className="w-[80%] p-3 rounded bg-zinc-800 text-zinc-200 text-sm border border-zinc-700 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20"
-                  aria-label="Spectral Class"
+                  aria-label="Eccentricity"
                 />
               </div>
               <div className="space-y-1">
@@ -68,10 +68,10 @@ const Product = () => {
                   type="text"
                   placeholder="Enter the value"
                   className="w-[80%] p-3 rounded bg-zinc-800 text-zinc-200 text-sm border border-zinc-700 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20"
-                  aria-label="Orbital Semi-Major Axis"
+                  aria-label="Aphelion Distance"
                 />
               </div>
-              <button className='w-[80%] p-4 bg-[#2a1b3d] text-zinc-200 text-md'>Analyze</button>
+              <button className='w-[80%] p-4 rounded bg-[#2a1b3d] text-zinc-200 text-xl'>Analyze</button>
             </div>
           </div>
         </div>
