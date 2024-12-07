@@ -1,15 +1,10 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./index.html", // Include index.html
-    "./src/**/*.{js,jsx,ts,tsx}", // Include all component files
+    './src/**/*.{html,js,ts,jsx,tsx}',
+    './public/index.html',
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        'neue': ['Neue Machina', 'sans-serif']
-      }
-    }
+    extend: {},
   },
   plugins: [],
-};
+}
