@@ -36,50 +36,42 @@ const Product = () => {
             <h2 className="text-xl font-bold text-white mb-3">Asteroid Parameters</h2>
             <div className="space-y-3">
               <div className="space-y-1">
-                <label className="text-md text-purple-300">Wavelength Range</label>
+                <label className="text-md text-purple-300">Absolute Magnitude</label>
                 <input
                   type="text"
-                  placeholder="400-700 nm"
+                  placeholder="Enter the value"
                   className="w-[80%] p-3 rounded bg-zinc-800 text-zinc-200 text-sm border border-zinc-700 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20"
                   aria-label="Wavelength Range"
                 />
               </div>
               <div className="space-y-1">
-                <label className="text-md text-purple-300">Normalized Reflectance</label>
+                <label className="text-md text-purple-300">Albedo</label>
                 <input
                   type="text"
-                  placeholder="0.25, 0.35, 0.45"
+                  placeholder="Enter the value"
                   className="w-[80%] p-3 rounded bg-zinc-800 text-zinc-200 text-sm border border-zinc-700 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20"
                   aria-label="Normalized Reflectance"
                 />
               </div>
               <div className="space-y-1">
-                <label className="text-md text-purple-300 block w-[80%]">Spectral Class</label>
+                <label className="text-md text-purple-300 block w-[80%]">Eccentricity</label>
                 <input
                   type="text"
-                  placeholder="C-type, S-type, or M-type"
+                  placeholder="Enter the value"
                   className="w-[80%] p-3 rounded bg-zinc-800 text-zinc-200 text-sm border border-zinc-700 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20"
                   aria-label="Spectral Class"
                 />
               </div>
               <div className="space-y-1">
-                <label className="text-md text-purple-300">Orbital Semi-Major Axis</label>
+                <label className="text-md text-purple-300">Aphelion Distance</label>
                 <input
                   type="text"
-                  placeholder="2.77 AU"
+                  placeholder="Enter the value"
                   className="w-[80%] p-3 rounded bg-zinc-800 text-zinc-200 text-sm border border-zinc-700 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20"
                   aria-label="Orbital Semi-Major Axis"
                 />
               </div>
-              <div className="space-y-1">
-                <label className="text-md text-purple-300">Absolute Magnitude</label>
-                <input
-                  type="text"
-                  placeholder="16.7"
-                  className="w-[80%] p-3 rounded bg-zinc-800 text-zinc-200 text-sm border border-zinc-700 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20"
-                  aria-label="Absolute Magnitude"
-                />
-              </div>
+              <button className='w-[80%] p-4 bg-[#2a1b3d] text-zinc-200 text-md'>Analyze</button>
             </div>
           </div>
         </div>
@@ -91,10 +83,10 @@ const Product = () => {
             <h3 className="text-lg font-semibold text-purple-300 mb-2">Asteroid Details</h3>
           </div>
           <div className="px-4 py-2 rounded bg-zinc-800 text-white border border-purple-900/50 hover:border-purple-700/50 hover:shadow-[0_0_15px_rgba(168,85,247,0.15)] transition-all duration-300 h-[20rem]">
-            <h3 className="text-lg font-semibold text-purple-300 mb-2">Visualization</h3>
+            <h3 className="text-lg font-semibold text-purple-300 mb-2">Mining Instructions</h3>
           </div>
           <div className="px-4 py-2 rounded bg-zinc-800 text-white border border-purple-900/50 hover:border-purple-700/50 hover:shadow-[0_0_15px_rgba(168,85,247,0.15)] transition-all duration-300 h-[20rem]">
-            <h3 className="text-lg font-semibold text-purple-300 mb-2">Mining Instructions</h3>
+            <h3 className="text-lg font-semibold text-purple-300 mb-2">Mining Recommendations</h3>
           </div>
           <div className="px-4 py-2 rounded bg-zinc-800 text-white border border-purple-900/50 hover:border-purple-700/50 hover:shadow-[0_0_15px_rgba(168,85,247,0.15)] transition-all duration-300 h-[20rem]">
             <h3 className="text-lg font-semibold text-purple-300 mb-2">Cost Estimation</h3>
