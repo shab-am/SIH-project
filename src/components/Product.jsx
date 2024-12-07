@@ -45,7 +45,7 @@ const Product = () => {
                 />
               </div>
               <div className="space-y-1">
-                <label className="text-md text-purple-300">Albedo</label>
+                <label className="text-md text-purple-300">Albedo</label> <br />
                 <input
                   type="text"
                   placeholder="Enter the value"
